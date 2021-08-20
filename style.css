@@ -1,0 +1,284 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header-container{
+
+    display: flex;
+    background-color: #ff8000;
+    align-items: center;
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2rem;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    
+}
+
+.adress {
+    
+    text-decoration: underline;
+}
+
+.rating img{
+
+    width: 250px;
+    
+}
+
+.container{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-image img{
+    
+    width: 100%;
+    height: 250px;   
+    object-fit: cover;
+    padding-top: 10px;
+   
+}
+.container-box-2{
+
+    top: 72px;
+    position: fixed;
+    display: inline-block;
+    background-color: transparent;
+    z-index: 16;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 30%);
+    width: 25%;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    
+}
+
+
+.food-container{
+
+    border: 1px solid lightgray;
+    height: 50px;
+   
+}
+
+.restaurant-name {
+
+    font-size: 15px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.menu-container{
+    
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.restaurant-name span{
+
+    font-size: 12px;
+    color: rgb(141, 140, 140);
+}
+
+.menucard {
+    
+    border-radius: 2px 2px 0 0;
+    padding: 15px 12px;
+    background-color: #f8f5f2;
+    padding: 1rem;
+    
+}
+
+.menu-title {
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.menu-wrapper{
+    
+    padding: 1rem;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    
+}
+.menu-wrapper p{
+
+    font-size: 12px;
+}
+
+.btn {
+    
+    padding-top: 10px;
+    
+}
+
+.btn button {
+
+    background-color:#ff8000;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+
+.btn button:hover {
+
+    opacity: 0.7;
+}
+
+.menu-image2 img{
+
+    width: 77%;
+    height: 250px;   
+    object-fit: cover;
+}
+
+.price {
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: -.5px;
+    color: #ff8000;
+    margin: auto 0 0;
+}
+
+.container-box-2{
+
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.basketbox {
+
+    padding-left: 20px;
+    margin-top: 50px;
+    height: 250px;
+    width: 100%;
+    border: 0.5px solid lightgray;
+    padding: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+    word-spacing: 30px;
+    overflow-y: scroll;
+    text-align: center;
+       
+}
+
+.addbtn img {
+
+    height: 30px;
+
+}
+    
+.container-box-2 button{
+
+    border-radius: 10px;
+    border: 8px solid #fff;
+    bottom: 0;
+    flex-shrink: 0;
+    height: 72px;
+    background-color: #1574f5;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    text-align: center;
+}
+
+.text {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer-container{
+
+    background-color: #ff8000;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+
+@media (max-width: 1000px) {
+
+    body{
+
+        width: 100%;
+    }
+
+    .h2{
+
+        padding-left: 10px;
+    }
+
+    .logo {
+
+        font-size: 23px;
+    }
+
+    .hide-mobile{
+
+        display: none;
+    }
+
+    .basketbox{
+
+        height: 100px;
+
+
+    }
+    .header-container{
+
+        font-size: 15px;
+        display: flex;
+        flex-direction: inherit;
+    }
+
+    .menu-container{
+    
+        width: 100%;
+        
+    }
+    
+    .container-box-2{
+
+        position: sticky;
+        width: 100%; 
+        padding-top: 10px; 
+        table-layout: fixed;
+        
+    }
+
+
+}
+

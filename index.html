@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    
+    <title>LieferExpress</title>
+    
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    
+<div class="header-container">
+    <div class="logo">LieferExpress.de</div>
+    <div class="adress hide-mobile">Musterstr. Düsseldorf</div>
+    <div class="burger-icon">
+
+        <a href="#"><img src="img/burgericon.jpg" height="30px" width="30px"></a>
+    </div>
+
+</div>
+
+    <div class="container">
+    
+    <div class="menu-container">   
+        <div class="container-image">
+            <a href="#"></a><img src="img/burger.jpg">
+            </div>
+    <div class="restaurant-name">
+        <h2>BurgerPlace</h2>
+        <div class="rating"><img src="/img/rating.jpg" alt=""></div>
+        <span>Super leckere Burger frisch zubereitet.</span>
+    </div>
+    <div class="menucard">
+        <h3>Beliebte Gerichte</h3>
+    </div>
+    <div id="addbasket" class="menu-wrapper">
+        <div class="menu-title">
+            <span>Cheese Burger</span>
+            <div onclick="addtobasket(0)" class="btn"><button>zum Warenkorb</button></div>
+        </div>
+        <p>Cheeseburger mit Käse, Tomaten, Salat und hausgemachter Burgersoße</p>
+    <div class="price">7,90 €</div>
+    
+    </div>
+
+    <div id="addbasket" class="menu-wrapper">
+        <div class="menu-title">
+            <span>Chili Burger</span>
+            <div onclick="addtobasket(1)" class="btn"><button>zum Warenkorb</button></div>
+        </div>
+        <p>mit 200g Patty, scharfen Chilis , frischen Strauchtomaten, süßlichen Zwiebeln und hausgemachter Chilisauce</p>
+    <div class="price">9,90 €</div>
+    </div>
+
+    <div id="addbasket" class="menu-wrapper">
+        <div class="menu-title">
+            <span>Bacon Burger</span>
+            <div onclick="addtobasket(2)" class="btn"><button>zum Warenkorb</button></div>
+        </div>
+        <p>gegrillter Riesen-Burger mit Salat, frischen Tomaten, Gewürzgurken, roten Zwiebeln, Bacon und Barbecuesauce
+        </p>
+    <div class="price">10,90 €</div>
+    </div>
+
+    <div class="container-image">
+        <img src="img/burger2.jpg">
+    </div>
+
+    <div class="container-box-2">
+    <div class="basket">
+    <div class="cart "><h3>Warenkorb</h3></div>
+    <div id="basketbox" class="basketbox">
+        <div class="item"></div>
+    </div>
+    </div>
+    
+    <div class="calculate">
+    <div id="total" class="total">Gesamt</div>
+    
+    </div>
+    <div>
+    <a href="../Lieferando/order.html"><button>Bestellen</button></a>
+
+
+    </div>  
+
+    
+    </div>
+
+
+
+</body>
+
+
+
+</html>
